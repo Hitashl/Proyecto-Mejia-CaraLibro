@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA6124A628344C6000962B4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6124A528344C6000962B4F /* AppDelegate.swift */; };
+		FA6124A828344C6000962B4F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6124A728344C6000962B4F /* SceneDelegate.swift */; };
+		FA6124AD28344C6000962B4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6124AB28344C6000962B4F /* Main.storyboard */; };
+		FA6124AF28344C6200962B4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA6124AE28344C6200962B4F /* Assets.xcassets */; };
+		FA6124B228344C6200962B4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6124B028344C6200962B4F /* LaunchScreen.storyboard */; };
+		FA6124BD28344C6200962B4F /* Proyecto_Mejia_CaraLibroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6124BC28344C6200962B4F /* Proyecto_Mejia_CaraLibroTests.swift */; };
+		FA6124C828344C6200962B4F /* Proyecto_Mejia_CaraLibroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6124C728344C6200962B4F /* Proyecto_Mejia_CaraLibroUITests.swift */; };
+		FA6124D628344CE400962B4F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6124D528344CE400962B4F /* LoginViewController.swift */; };
+		FA6124D828344CFB00962B4F /* NewUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6124D728344CFB00962B4F /* NewUserViewController.swift */; };
+		FA6124DA283469CF00962B4F /* RecoveryUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6124D9283469CF00962B4F /* RecoveryUserViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA6124B928344C6200962B4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA61249A28344C6000962B4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA6124A128344C6000962B4F;
+			remoteInfo = "Proyecto-Mejia-CaraLibro";
+		};
+		FA6124C428344C6200962B4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA61249A28344C6000962B4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA6124A128344C6000962B4F;
+			remoteInfo = "Proyecto-Mejia-CaraLibro";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA6124A228344C6000962B4F /* Proyecto-Mejia-CaraLibro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Proyecto-Mejia-CaraLibro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6124A528344C6000962B4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA6124A728344C6000962B4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA6124AC28344C6000962B4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA6124AE28344C6200962B4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA6124B128344C6200962B4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA6124B328344C6200962B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA6124B828344C6200962B4F /* Proyecto-Mejia-CaraLibroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Proyecto-Mejia-CaraLibroTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6124BC28344C6200962B4F /* Proyecto_Mejia_CaraLibroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proyecto_Mejia_CaraLibroTests.swift; sourceTree = "<group>"; };
+		FA6124BE28344C6200962B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA6124C328344C6200962B4F /* Proyecto-Mejia-CaraLibroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Proyecto-Mejia-CaraLibroUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6124C728344C6200962B4F /* Proyecto_Mejia_CaraLibroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proyecto_Mejia_CaraLibroUITests.swift; sourceTree = "<group>"; };
+		FA6124C928344C6200962B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA6124D528344CE400962B4F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FA6124D728344CFB00962B4F /* NewUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserViewController.swift; sourceTree = "<group>"; };
+		FA6124D9283469CF00962B4F /* RecoveryUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoveryUserViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA61249F28344C6000962B4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6124B528344C6200962B4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6124C028344C6200962B4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA61249928344C6000962B4F = {
+			isa = PBXGroup;
+			children = (
+				FA6124A428344C6000962B4F /* Proyecto-Mejia-CaraLibro */,
+				FA6124BB28344C6200962B4F /* Proyecto-Mejia-CaraLibroTests */,
+				FA6124C628344C6200962B4F /* Proyecto-Mejia-CaraLibroUITests */,
+				FA6124A328344C6000962B4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA6124A328344C6000962B4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA6124A228344C6000962B4F /* Proyecto-Mejia-CaraLibro.app */,
+				FA6124B828344C6200962B4F /* Proyecto-Mejia-CaraLibroTests.xctest */,
+				FA6124C328344C6200962B4F /* Proyecto-Mejia-CaraLibroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA6124A428344C6000962B4F /* Proyecto-Mejia-CaraLibro */ = {
+			isa = PBXGroup;
+			children = (
+				FA6124A528344C6000962B4F /* AppDelegate.swift */,
+				FA6124A728344C6000962B4F /* SceneDelegate.swift */,
+				FA6124AB28344C6000962B4F /* Main.storyboard */,
+				FA6124AE28344C6200962B4F /* Assets.xcassets */,
+				FA6124B028344C6200962B4F /* LaunchScreen.storyboard */,
+				FA6124B328344C6200962B4F /* Info.plist */,
+				FA6124D528344CE400962B4F /* LoginViewController.swift */,
+				FA6124D728344CFB00962B4F /* NewUserViewController.swift */,
+				FA6124D9283469CF00962B4F /* RecoveryUserViewController.swift */,
+			);
+			path = "Proyecto-Mejia-CaraLibro";
+			sourceTree = "<group>";
+		};
+		FA6124BB28344C6200962B4F /* Proyecto-Mejia-CaraLibroTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA6124BC28344C6200962B4F /* Proyecto_Mejia_CaraLibroTests.swift */,
+				FA6124BE28344C6200962B4F /* Info.plist */,
+			);
+			path = "Proyecto-Mejia-CaraLibroTests";
+			sourceTree = "<group>";
+		};
+		FA6124C628344C6200962B4F /* Proyecto-Mejia-CaraLibroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA6124C728344C6200962B4F /* Proyecto_Mejia_CaraLibroUITests.swift */,
+				FA6124C928344C6200962B4F /* Info.plist */,
+			);
+			path = "Proyecto-Mejia-CaraLibroUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA6124A128344C6000962B4F /* Proyecto-Mejia-CaraLibro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA6124CC28344C6200962B4F /* Build configuration list for PBXNativeTarget "Proyecto-Mejia-CaraLibro" */;
+			buildPhases = (
+				FA61249E28344C6000962B4F /* Sources */,
+				FA61249F28344C6000962B4F /* Frameworks */,
+				FA6124A028344C6000962B4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Proyecto-Mejia-CaraLibro";
+			productName = "Proyecto-Mejia-CaraLibro";
+			productReference = FA6124A228344C6000962B4F /* Proyecto-Mejia-CaraLibro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA6124B728344C6200962B4F /* Proyecto-Mejia-CaraLibroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA6124CF28344C6200962B4F /* Build configuration list for PBXNativeTarget "Proyecto-Mejia-CaraLibroTests" */;
+			buildPhases = (
+				FA6124B428344C6200962B4F /* Sources */,
+				FA6124B528344C6200962B4F /* Frameworks */,
+				FA6124B628344C6200962B4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA6124BA28344C6200962B4F /* PBXTargetDependency */,
+			);
+			name = "Proyecto-Mejia-CaraLibroTests";
+			productName = "Proyecto-Mejia-CaraLibroTests";
+			productReference = FA6124B828344C6200962B4F /* Proyecto-Mejia-CaraLibroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA6124C228344C6200962B4F /* Proyecto-Mejia-CaraLibroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA6124D228344C6200962B4F /* Build configuration list for PBXNativeTarget "Proyecto-Mejia-CaraLibroUITests" */;
+			buildPhases = (
+				FA6124BF28344C6200962B4F /* Sources */,
+				FA6124C028344C6200962B4F /* Frameworks */,
+				FA6124C128344C6200962B4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA6124C528344C6200962B4F /* PBXTargetDependency */,
+			);
+			name = "Proyecto-Mejia-CaraLibroUITests";
+			productName = "Proyecto-Mejia-CaraLibroUITests";
+			productReference = FA6124C328344C6200962B4F /* Proyecto-Mejia-CaraLibroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA61249A28344C6000962B4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = user191222;
+				TargetAttributes = {
+					FA6124A128344C6000962B4F = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					FA6124B728344C6200962B4F = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = FA6124A128344C6000962B4F;
+					};
+					FA6124C228344C6200962B4F = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = FA6124A128344C6000962B4F;
+					};
+				};
+			};
+			buildConfigurationList = FA61249D28344C6000962B4F /* Build configuration list for PBXProject "Proyecto-Mejia-CaraLibro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA61249928344C6000962B4F;
+			productRefGroup = FA6124A328344C6000962B4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA6124A128344C6000962B4F /* Proyecto-Mejia-CaraLibro */,
+				FA6124B728344C6200962B4F /* Proyecto-Mejia-CaraLibroTests */,
+				FA6124C228344C6200962B4F /* Proyecto-Mejia-CaraLibroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA6124A028344C6000962B4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6124B228344C6200962B4F /* LaunchScreen.storyboard in Resources */,
+				FA6124AF28344C6200962B4F /* Assets.xcassets in Resources */,
+				FA6124AD28344C6000962B4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6124B628344C6200962B4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6124C128344C6200962B4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA61249E28344C6000962B4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6124D628344CE400962B4F /* LoginViewController.swift in Sources */,
+				FA6124DA283469CF00962B4F /* RecoveryUserViewController.swift in Sources */,
+				FA6124A628344C6000962B4F /* AppDelegate.swift in Sources */,
+				FA6124D828344CFB00962B4F /* NewUserViewController.swift in Sources */,
+				FA6124A828344C6000962B4F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6124B428344C6200962B4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6124BD28344C6200962B4F /* Proyecto_Mejia_CaraLibroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6124BF28344C6200962B4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6124C828344C6200962B4F /* Proyecto_Mejia_CaraLibroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA6124BA28344C6200962B4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA6124A128344C6000962B4F /* Proyecto-Mejia-CaraLibro */;
+			targetProxy = FA6124B928344C6200962B4F /* PBXContainerItemProxy */;
+		};
+		FA6124C528344C6200962B4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA6124A128344C6000962B4F /* Proyecto-Mejia-CaraLibro */;
+			targetProxy = FA6124C428344C6200962B4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA6124AB28344C6000962B4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA6124AC28344C6000962B4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA6124B028344C6200962B4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA6124B128344C6200962B4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA6124CA28344C6200962B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA6124CB28344C6200962B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA6124CD28344C6200962B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Proyecto-Mejia-CaraLibro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.isil.Proyecto-Mejia-CaraLibro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA6124CE28344C6200962B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Proyecto-Mejia-CaraLibro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.isil.Proyecto-Mejia-CaraLibro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA6124D028344C6200962B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Proyecto-Mejia-CaraLibroTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.isil.Proyecto-Mejia-CaraLibroTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Proyecto-Mejia-CaraLibro.app/Proyecto-Mejia-CaraLibro";
+			};
+			name = Debug;
+		};
+		FA6124D128344C6200962B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Proyecto-Mejia-CaraLibroTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.isil.Proyecto-Mejia-CaraLibroTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Proyecto-Mejia-CaraLibro.app/Proyecto-Mejia-CaraLibro";
+			};
+			name = Release;
+		};
+		FA6124D328344C6200962B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Proyecto-Mejia-CaraLibroUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.isil.Proyecto-Mejia-CaraLibroUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Proyecto-Mejia-CaraLibro";
+			};
+			name = Debug;
+		};
+		FA6124D428344C6200962B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Proyecto-Mejia-CaraLibroUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.isil.Proyecto-Mejia-CaraLibroUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Proyecto-Mejia-CaraLibro";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA61249D28344C6000962B4F /* Build configuration list for PBXProject "Proyecto-Mejia-CaraLibro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6124CA28344C6200962B4F /* Debug */,
+				FA6124CB28344C6200962B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA6124CC28344C6200962B4F /* Build configuration list for PBXNativeTarget "Proyecto-Mejia-CaraLibro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6124CD28344C6200962B4F /* Debug */,
+				FA6124CE28344C6200962B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA6124CF28344C6200962B4F /* Build configuration list for PBXNativeTarget "Proyecto-Mejia-CaraLibroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6124D028344C6200962B4F /* Debug */,
+				FA6124D128344C6200962B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA6124D228344C6200962B4F /* Build configuration list for PBXNativeTarget "Proyecto-Mejia-CaraLibroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6124D328344C6200962B4F /* Debug */,
+				FA6124D428344C6200962B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA61249A28344C6000962B4F /* Project object */;
+}
