@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>136580961093-j6olp3dmuk3ts10i9c5fqp04t8gk8mfq.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.136580961093-j6olp3dmuk3ts10i9c5fqp04t8gk8mfq</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD0KPS0bsvgHSIClueTfcbjynmfy5xKppk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>136580961093</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.isil.Proyecto-Mejia-CaraLibro</string>
+	<key>PROJECT_ID</key>
+	<string>fir-caralibro-mejiag</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fir-caralibro-mejiag.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:136580961093:ios:cc821352bfd2389eb7642c</string>
+</dict>
+</plist>

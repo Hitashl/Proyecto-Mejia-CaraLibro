@@ -7,12 +7,30 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class LoginViewController: UIViewController {
     
     @IBOutlet weak var viewContent: UIView!
     @IBOutlet weak var anchorContentCenterY: NSLayoutConstraint!
     
+    @IBOutlet weak var emailLogin: UITextField!
+    @IBOutlet weak var passwordLogin: UITextField!
+    
+    @IBAction func Login(_ sender: Any) {
+        if let email = emailLogin.text, let password = passwordLogin.text{
+            Auth.auth().signIn(withEmail: email, password: password) { (result, error) in
+                if let result = result, error == nil {
+                    let controller = HomeViewController.buildWithUserName(email)
+                    self.navigationController?.pushViewController(controller, animated: true)
+                } else {
+                    let alertController = UIAlertController(title: "Error", message: "Email o contrasena incorrecta", preferredStyle: .alert)
+                    alertController.addAction(UIAlertAction(title: "Aceptar", style: .default))
+                    self.present(alertController, animated: true, completion: nil)
+                }
+            }
+        }
+    }
     @IBAction private func tapToCloseKeyboard(sender: UITapGestureRecognizer) {
         self.view.endEditing(true)
     }

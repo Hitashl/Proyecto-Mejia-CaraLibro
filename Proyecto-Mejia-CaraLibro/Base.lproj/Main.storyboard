@@ -54,6 +54,9 @@
                                 <state key="normal" title="Ingresar">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="Login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iyv-7T-TEO"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fA5-Vo-1GD">
                                 <rect key="frame" x="0.0" y="429" width="414" height="128"/>
@@ -107,7 +110,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.31307406686544853" green="0.75773565241029905" blue="0.90199335548172754" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.31489783529999998" green="0.75946801900000005" blue="0.90721178049999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="3WH-z1-dcx" firstAttribute="top" secondItem="fA5-Vo-1GD" secondAttribute="bottom" constant="15" id="7jT-Pw-LSD"/>
@@ -130,6 +133,8 @@
                     <navigationItem key="navigationItem" id="t6B-Nw-H2Q"/>
                     <connections>
                         <outlet property="anchorContentCenterY" destination="fZe-Fz-17l" id="zdj-Ky-rya"/>
+                        <outlet property="emailLogin" destination="dPK-fk-Nto" id="s3J-Z7-bVy"/>
+                        <outlet property="passwordLogin" destination="Uf8-fY-pgQ" id="EZu-nn-X8M"/>
                         <outlet property="viewContent" destination="fA5-Vo-1GD" id="kkS-Fa-GBa"/>
                     </connections>
                 </viewController>
@@ -141,6 +146,58 @@
                 </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="795.6521739130435" y="143.97321428571428"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="Qzg-nB-zeU">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" id="ohP-Sl-wvs" customClass="HomeViewController" customModule="Proyecto_Mejia_CaraLibro" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DlB-xs-hLv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4G4-q6-Ubb">
+                                <rect key="frame" x="10" y="54" width="45" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LastName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WjI-V5-ywt">
+                                <rect key="frame" x="55" y="54" width="77.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OG9-dd-d2G">
+                                <rect key="frame" x="310" y="54" width="94" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Cerrar Sesion">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="closeSesion:" destination="ohP-Sl-wvs" eventType="touchUpInside" id="M4g-Gj-fwM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="GQz-sa-OJH"/>
+                        <color key="backgroundColor" red="0.31489783529999998" green="0.75946801900000005" blue="0.90721178049999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="OG9-dd-d2G" firstAttribute="top" secondItem="GQz-sa-OJH" secondAttribute="top" constant="10" id="DeO-TV-tZW"/>
+                            <constraint firstItem="4G4-q6-Ubb" firstAttribute="top" secondItem="GQz-sa-OJH" secondAttribute="top" constant="10" id="Neo-fd-pp3"/>
+                            <constraint firstItem="4G4-q6-Ubb" firstAttribute="leading" secondItem="GQz-sa-OJH" secondAttribute="leading" constant="10" id="aKJ-10-rAC"/>
+                            <constraint firstItem="GQz-sa-OJH" firstAttribute="trailing" secondItem="OG9-dd-d2G" secondAttribute="trailing" constant="10" id="feA-IE-8dF"/>
+                            <constraint firstItem="WjI-V5-ywt" firstAttribute="top" secondItem="GQz-sa-OJH" secondAttribute="top" constant="10" id="iaZ-9e-DOQ"/>
+                            <constraint firstItem="WjI-V5-ywt" firstAttribute="leading" secondItem="4G4-q6-Ubb" secondAttribute="trailing" id="qrk-2m-NBo"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="e71-ut-Cre"/>
+                    <connections>
+                        <outlet property="lastnameUser" destination="WjI-V5-ywt" id="zTD-Wz-MIL"/>
+                        <outlet property="nameUser" destination="4G4-q6-Ubb" id="bB2-LS-ZTQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="56i-Ga-ecf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="795.6521739130435" y="961.60714285714278"/>
         </scene>
         <!--Recovery User View Controller-->
         <scene sceneID="JtC-xR-fK4">
@@ -306,6 +363,9 @@
                                         <state key="normal" title="Registrarse">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="Register:" destination="HZ1-yw-ydq" eventType="touchUpInside" id="319-ZV-1KS"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Correo:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y4c-D2-7Fk">
                                         <rect key="frame" x="40" y="130" width="100" height="34"/>
@@ -387,6 +447,10 @@
                     <size key="freeformSize" width="414" height="1000"/>
                     <connections>
                         <outlet property="anchorBottomScroll" destination="S5Q-hl-4IX" id="Vgx-1w-YBy"/>
+                        <outlet property="emailRegister" destination="Ylj-7O-JKJ" id="nhP-tu-AbC"/>
+                        <outlet property="lastnameRegister" destination="jn8-kG-Xvp" id="sxZ-zj-dia"/>
+                        <outlet property="nameRegister" destination="6b4-qf-aQT" id="s9s-Lb-o3o"/>
+                        <outlet property="passwordRegister" destination="3Ki-80-Wc1" id="3RA-dC-Qvu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y4Q-l2-Udh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
